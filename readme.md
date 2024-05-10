@@ -34,4 +34,4 @@ ubuntu 18.04 (windows 系统也能够支持)
 
 
 # 实车中实时生成归因值的显示
-放视频
+[放视频](https://github.com/limeng-1234/EIDG/assets/76480875/aeba45ee-2ab7-42fe-b5e8-1ff97977b3cb)
