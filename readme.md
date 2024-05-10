@@ -1,4 +1,4 @@
-#项目说明
+# 项目说明
 The demand for explainability in complex machine learning (ML) models is ever more pressing, particularly within safety-critical domains like autonomous driving.
 The Integrated Gradient (IG), a prominent attribution-based explainable artificial intelligence method, offers an effective solution for explaining and diagnosing ML models.
 However, IG is primarily designed for  deep neural network models, hindering its broader applicability to various structured machine-learning models. Moreover, the issue of selecting a suitable single baseline point in IG methods still needs to be solved.
@@ -7,12 +7,13 @@ baselines affect the output. Our method is thoroughly evaluated on standard mach
 
 ![EIDG](https://github.com/limeng-1234/EIDG/assets/76480875/770062c3-cb93-4984-a4c7-f72f3fd17fe5)
 
-## 前提条件：
+# 项目使用
+## 前提条件
 ubuntu 18.04 (windows 系统也能够支持)
 
 安装conda
 
-# 库安装
+## 库安装
 
 * 使用conda创建python=3.6虚拟环境  
 
@@ -24,12 +25,11 @@ ubuntu 18.04 (windows 系统也能够支持)
 
 将该库下载到本地
 
-# 示例
-*  运行程序
-
-1233
-
-*  结果
+## 示例
+*  横向决策模型示例 notebook/LaneChange_example.ipynb
+*  纵向决策模型示例 notebook/longitudinal_example.ipynb
+*  EIDG计算效率分析 notebook/calculation_time-comparasion.ipynb
+*  EIDG数值稳定性分析 notebook/Numerical_stability.ipynb
 
 
 
